@@ -11,6 +11,7 @@ public class PlayerCharacterController : MonoBehaviour
     Rigidbody2D rigidBody;
 
     // Update is called once per frame
+
     void Update()
     {
         Vector2 movementVector = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
